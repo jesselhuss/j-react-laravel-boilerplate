@@ -55,3 +55,9 @@
 - Sass
 - ESLint
 - Preconfigured redux store, actions and saga.
+
+## Plan By Package
+[https://github.com/karolkozer/planby]
+```bash
+yarn add planby
+```
