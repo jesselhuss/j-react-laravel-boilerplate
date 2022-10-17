@@ -3,6 +3,18 @@
 - This is a react-laravel app using sanctum for authentication and laravel sail.
 
 ## Installation
+### Installing Project
+```bash
+- composer create-project nilanth/laravel-react-boilerplate
+- cd laravel-react-boilerplate
+- Run yarn install
+- Create a Database
+- Update the Database credential to .env file
+- Run php artisan migrate -> To create needed tables.
+- Run php artisan db:seed -> To seed some fake users.
+- Run yarn run dev OR npm run watch for live updating
+- Update API HOST_URL in resources/js/config/constant.js file (For local development change it to 'api')
+```
 ### Installing Sail
 ```bash
 - Download Docker Desktop [https://www.docker.com/products/docker-desktop/]
@@ -28,19 +40,6 @@
     password: password
 - create a database and update it in the .env file
 ```
-### Installing Project
-```bash
-- composer create-project nilanth/laravel-react-boilerplate
-- cd laravel-react-boilerplate
-- Run yarn install
-- Create a Database
-- Update the Database credential to .env file
-- Run php artisan migrate -> To create needed tables.
-- Run php artisan db:seed -> To seed some fake users.
-- Run yarn run dev OR npm run watch for live updating
-- Update API HOST_URL in resources/js/config/constant.js file (For local development change it to 'api')
-```
-
 
 ## Pre-Configured
 - Laravel 9
